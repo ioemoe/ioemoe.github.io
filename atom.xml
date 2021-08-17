@@ -37,28 +37,6 @@
   </entry>
   
   <entry>
-    <title>第一个文章</title>
-    <link href="https://ioemoe.github.io/2021/08/17/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E7%AB%A0/"/>
-    <id>https://ioemoe.github.io/2021/08/17/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E7%AB%A0/</id>
-    <published>2021-08-17T02:53:24.000Z</published>
-    <updated>2021-08-17T11:54:40.618Z</updated>
-    
-    <content type="html"><![CDATA[<p>原生 Butterfly 主题不支持部分标签外挂，若想使用，参考 Tag Plugins Plus</p><p>Front-matter<br>Front-matter 是文件最上方以 — 分隔的区域</p><p>写法    解释<br>title    【必需】页面标题<br>date    【必需】页面创建日期<br>type    【必需】标籤、分类和友情链接三个页面需要配置<br>updated    【可选】页面更新日期<br>description    【可选】页面描述<br>keywords    【可选】页面关键字<br>comments    【可选】显示页面评论模块 (默认 true)<br>top_img    【可选】页面顶部图片<br>mathjax    【可选】显示 mathjax (当设置 mathjax 的 per_page: false 时，才需要配置，默认 false)<br>katex    【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false)<br>aside    【可选】显示侧边栏 (默认 true)<br>aplayer    【可选】在需要的页面加载 aplayer 的 js 和 css, 请参考文章下面的音乐 配置<br>highlight_shrink    【可选】配置代码框是否展开 (true/false)(默认为设置中 highlight_shrink 的配置)<br>Post Front-matter<br>寫法    解釋<br>title    【必需】文章標題<br>date    【必需】文章創建日期<br>updated    【可選】文章更新日期<br>tags    【可選】文章標籤<br>categories    【可選】文章分類<br>keywords    【可選】文章關鍵字<br>description    【可選】文章描述<br>top_img    【可選】文章頂部圖片<br>cover    【可選】文章縮略圖(如果沒有設置top_img,文章頁頂部將顯示縮略圖，可設為false/圖片地址/留空)<br>comments    【可選】顯示文章評論模塊(默認 true)<br>toc    【可選】顯示文章TOC(默認為設置中toc的enable配置)<br>toc_number    【可選】顯示toc_number(默認為設置中toc的number配置)<br>copyright    【可選】顯示文章版權模塊(默認為設置中post_copyright的enable配置)<br>copyright_author    【可選】文章版權模塊的文章作者<br>copyright_author_href    【可選】文章版權模塊的文章作者鏈接<br>copyright_url    【可選】文章版權模塊的文章連結鏈接<br>copyright_info    【可選】文章版權模塊的版權聲明文字<br>mathjax    【可選】顯示 mathjax (當設置 mathjax 的 per_page: false時，才需要配置，默認 false)<br>katex    【可選】顯示 katex (當設置 katex 的 per_page: false 時，才需要配置，默認 false)<br>aplayer    【可選】在需要的頁面加載 aplayer 的 js 和 css<br>highlight_shrink    【可選】配置代碼框是否展開(true/false)(默認為設置中highlight_shrink的配置)<br>aside    【可選】顯示側邊欄 (默認 true)<br>标签外挂<br>标签外挂是 Hexo 独有的功能，并不是标准的 Markdown 格式。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;原生 Butterfly 主题不支持部分标签外挂，若想使用，参考 Tag Plugins Plus&lt;/p&gt;
-&lt;p&gt;Front-matter&lt;br&gt;Front-matter 是文件最上方以 — 分隔的区域&lt;/p&gt;
-&lt;p&gt;写法    解释&lt;br&gt;title    【必需】页面标</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>自用 Hexo-Butterfly 主题参考手册</title>
     <link href="https://ioemoe.github.io/2021/08/17/%E8%87%AA%E7%94%A8%20Hexo-Butterfly%20%E4%B8%BB%E9%A2%98%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C/"/>
     <id>https://ioemoe.github.io/2021/08/17/%E8%87%AA%E7%94%A8%20Hexo-Butterfly%20%E4%B8%BB%E9%A2%98%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C/</id>
@@ -78,6 +56,28 @@
     
     
     <category term="自用的一些写法" scheme="https://ioemoe.github.io/tags/%E8%87%AA%E7%94%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E5%86%99%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>E5的续订</title>
+    <link href="https://ioemoe.github.io/2021/08/17/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E7%AB%A0/"/>
+    <id>https://ioemoe.github.io/2021/08/17/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E7%AB%A0/</id>
+    <published>2021-08-17T02:53:24.000Z</published>
+    <updated>2021-08-17T23:20:46.139Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-制作待办事宜-Todo-列表"><a href="#1-制作待办事宜-Todo-列表" class="headerlink" title="1. 制作待办事宜 Todo 列表"></a>1. 制作待办事宜 <code>Todo</code> 列表</h2><ul><li><input checked="" disabled="" type="checkbox"> 🎉 通常 <code>Markdown</code> 解析器自带的基本功能；</li><li><input checked="" disabled="" type="checkbox"> 🍀 支持<strong>流程图</strong>、<strong>甘特图</strong>、<strong>时序图</strong>、<strong>任务列表</strong>；</li><li><input checked="" disabled="" type="checkbox"> 🏁 支持粘贴 HTML 自动转换为 Markdown；</li><li><input checked="" disabled="" type="checkbox"> 💃🏻 支持插入原生 Emoji、设置常用表情列表；</li><li><input checked="" disabled="" type="checkbox"> 🚑 支持编辑内容保存<strong>本地存储</strong>，防止意外丢失；</li><li><input checked="" disabled="" type="checkbox"> 📝 支持<strong>实时预览</strong>，主窗口大小拖拽，字符计数；</li><li><input checked="" disabled="" type="checkbox"> 🛠 支持常用快捷键(<strong>Tab</strong>)，及代码块添加复制</li><li><input checked="" disabled="" type="checkbox"> ✨ 支持<strong>导出</strong>携带样式的 PDF、PNG、JPEG 等；</li><li><input checked="" disabled="" type="checkbox"> ✨ 升级 Vditor，新增对 <code>echarts</code> 图表的支持；</li><li><input checked="" disabled="" type="checkbox"> 👏 支持检查并格式化 Markdown 语法，使其专业；</li><li><input checked="" disabled="" type="checkbox"> 🦑 支持五线谱、及<a href="https://github.com/b3log/vditor/issues/117?utm_source=hacpai.com#issuecomment-526986052">部分站点、视频、音频解析</a>；</li><li><input checked="" disabled="" type="checkbox"> 🌟 增加对<strong>所见即所得</strong>编辑模式的支持(<code>⌘-⇧-M</code>)；</li></ul><h2 id="2-关于-E5注册续订教程"><a href="#2-关于-E5注册续订教程" class="headerlink" title="2. 关于 E5注册续订教程"></a>2. 关于 <code>E5注册续订</code>教程</h2><p><strong>E5账号的Onedrive空间<strong><strong>最好不要存重要文件</strong></strong>，<strong><strong>可以当做备份空间</strong></strong>。文件多平台同步的话，可以按视频中的方法用E5账号激活，再登陆自己的Microsoft账号，<strong><strong>使用自己账号里的Onedrive空间进行同步</strong></strong>，就是左上角自动保存打开时选择自己的Onedrive！用了一年虽然没出现什么问题，但数据无价，注意文件安全！</strong></p><p>Microsoft 365 开发人员计划仪表盘</p><p><a href="https://developer.microsoft.com/zh-cn/microsoft-365/profile">https://developer.microsoft.com/zh-cn/microsoft-365/profile</a></p><p>Microsoft 365 管理中心</p><p><a href="https://admin.microsoft.com/adminportal/home#/users">https://admin.microsoft.com/adminportal/home?#/users</a></p><p>Office Tool Plus 下载</p><p><a href="https://otp.landian.vip/zh-cn/download.html">https://otp.landian.vip/zh-cn/download.html</a></p><p>Azure</p><p><a href="https://portal.azure.com/#home">https://portal.azure.com/#home</a></p><p>需要填写的重定向URI：<a href="https://e5.qyi.io/outlook/auth2/receive">https://e5.qyi.io/outlook/auth2/receive</a></p><p>E5 续订网站</p><p><a href="https://e5.qyi.io/user/baseSetting">https://e5.qyi.io/user/baseSetting</a></p><p>教程：<a href="https://qyi.io/archives/687.html">https://qyi.io/archives/687.html</a></p><p>E5 续订程序：Microsoft 365 E5 Renew Plus</p><p><a href="https://blog.csdn.net/qq_33212020/article/details/114482595">https://blog.csdn.net/qq_33212020/article/details/114482595</a></p><p><strong>帮助文档：</strong><a href="https://docs.qq.com/doc/DV1BibHVSSUhtUXdi">https://docs.qq.com/doc/DV1BibHVSSUhtUXdi</a></p><p>Microsoft 365 E5 Renew Web</p><p>（目前可以注册了，不需要本地运行程序，续订方法大同小异，可以先使用E5 Renew Plus配置API，具体可以看一下文档）</p><p><a href="https://e5.sundayrx.net/">https://e5.sundayrx.net/</a></p><p><a href="https://blog.csdn.net/qq_33212020/article/details/109437936">https://blog.csdn.net/qq_33212020/article/details/109437936</a></p><p><strong>勘误</strong></p><p>视频中应是“重定向URI”，不是“URL”。</p><p>用E5账户激活Microsoft 365之后请不要注销这个E5账户，</p><p>因为这个E5账户绑定着Microsoft 365的许可证，注销了就会退回未激活的状态。</p><p><strong>关于****两种续订方式的选择</strong></p><p>一般用一个E5续订网站版那个就可以了，如果条件可以的话，也建议再加上E5 Renew Plus，因为很明显E5 Renew Plus调用的api数量多很多，更保险一点。如果实在运气不好90天后没有续期成功的，不要慌，往后两个月内数据都会保留，也还可以续订的。请马上用E5 Renew Plus的过期急救，大概率是能续上的。如果都过了一个月还没续上的话，除了可以提交工单之外，请快点转移数据吧。</p><p><strong>E5 激活账户</strong>（已经配置好续订程序了）</p><p>（为避免误会，请不要使用这个账户的Onedrive空间存储任何文件，仅仅只需按视频方法激活Microsoft 365即可）</p><p>账号：<a href="mailto:&#x61;&#x64;&#64;&#101;&#x63;&#104;&#111;&#x68;&#x2e;&#x6d;&#108;">&#x61;&#x64;&#64;&#101;&#x63;&#104;&#111;&#x68;&#x2e;&#x6d;&#108;</a></p><p>密码：Moy14541</p><p><strong>关于续订程序的一些问题</strong>（高级操作）</p><p>任何成员都可以访问Azure面板进行注册应用，并且任何成员创建的应用都是创建在整个域中的，创建者即为此应用的所有者。管理员可以看到所有用户创建的应用程序，并且有且只有管理员可以授权或修改api权限，而用户只能创建应用并查看，并不能修改权限。所以可以用子账户先创建应用程序，再转到管理员账户下授权api。</p><p>视频中是直接用管理员账户创建应用并授权了api，这样做方便演示。第一个续订程序的工作仅是调用api来读取所有者的Outlook邮箱邮件，而第二个续订程序调用大量api，存在“写”的操作，在随机模式下会生成大量垃圾邮件和文件（Onedrive中）。程序频繁的读写可能也会对正常使用账户造成影响，同时可能存在安全风险，因此如果对此介意的话，不建议使用管理员账户部署续订。更好的做法是，创建一个新的子账户专门应对E5续订的操作，这个子账户请不要拿来使用。</p><ol><li>对于第一个续订程序，我们先在在Azure中登陆这个新的子账户，创建应用程序，然后在Azure中切换到管理员账户，找到刚刚创建的应用程序，授权那四个api，并创建客户端密码，填写到续订网站相应位置即可。授权时请使用子账户登陆。</li><li>对于E5 Renew Plus，同样先在在Azure中登陆这个子账户，创建应用程序，步骤都同视频中一样。然后到E5 Renew Plus软件中点击添加账户，账号密码填写管理员的，id就填写刚创建的应用程序id，再点击自动配置应用程序api权限。显示授权成功之后，务必再把账号和密码改为那个子账户的，最后点击确定即可。</li><li>如果已经用管理员账户部署了续订程序并且不想修改的话，最好新建一个子账户来作为用于使用的账户。</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-制作待办事宜-Todo-列表&quot;&gt;&lt;a href=&quot;#1-制作待办事宜-Todo-列表&quot; class=&quot;headerlink&quot; title=&quot;1. 制作待办事宜 Todo 列表&quot;&gt;&lt;/a&gt;1. 制作待办事宜 &lt;code&gt;Todo&lt;/code&gt; 列表&lt;/h2&gt;&lt;u</summary>
+      
+    
+    
+    
+    
+    <category term="E5开发" scheme="https://ioemoe.github.io/tags/E5%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
