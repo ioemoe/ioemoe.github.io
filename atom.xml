@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>cat博客</title>
+  
+  <subtitle>这是一个记事本</subtitle>
+  <link href="https://ioemoe.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://ioemoe.github.io/"/>
+  <updated>2021-08-17T04:31:19.592Z</updated>
+  <id>https://ioemoe.github.io/</id>
+  
+  <author>
+    <name>Cat</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>代码演示</title>
+    <link href="https://ioemoe.github.io/2021/08/17/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/%E6%BC%94%E7%A4%BA/"/>
+    <id>https://ioemoe.github.io/2021/08/17/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/%E6%BC%94%E7%A4%BA/</id>
+    <published>2021-08-17T04:11:13.447Z</published>
+    <updated>2021-08-17T04:31:19.592Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">a</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log (<span class="string">&quot;hello world&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span </summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第一个文章</title>
+    <link href="https://ioemoe.github.io/2021/08/17/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E7%AB%A0/"/>
+    <id>https://ioemoe.github.io/2021/08/17/%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E7%AB%A0/</id>
+    <published>2021-08-17T02:53:24.000Z</published>
+    <updated>2021-08-17T11:54:40.618Z</updated>
+    
+    <content type="html"><![CDATA[<p>原生 Butterfly 主题不支持部分标签外挂，若想使用，参考 Tag Plugins Plus</p><p>Front-matter<br>Front-matter 是文件最上方以 — 分隔的区域</p><p>写法    解释<br>title    【必需】页面标题<br>date    【必需】页面创建日期<br>type    【必需】标籤、分类和友情链接三个页面需要配置<br>updated    【可选】页面更新日期<br>description    【可选】页面描述<br>keywords    【可选】页面关键字<br>comments    【可选】显示页面评论模块 (默认 true)<br>top_img    【可选】页面顶部图片<br>mathjax    【可选】显示 mathjax (当设置 mathjax 的 per_page: false 时，才需要配置，默认 false)<br>katex    【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false)<br>aside    【可选】显示侧边栏 (默认 true)<br>aplayer    【可选】在需要的页面加载 aplayer 的 js 和 css, 请参考文章下面的音乐 配置<br>highlight_shrink    【可选】配置代码框是否展开 (true/false)(默认为设置中 highlight_shrink 的配置)<br>Post Front-matter<br>寫法    解釋<br>title    【必需】文章標題<br>date    【必需】文章創建日期<br>updated    【可選】文章更新日期<br>tags    【可選】文章標籤<br>categories    【可選】文章分類<br>keywords    【可選】文章關鍵字<br>description    【可選】文章描述<br>top_img    【可選】文章頂部圖片<br>cover    【可選】文章縮略圖(如果沒有設置top_img,文章頁頂部將顯示縮略圖，可設為false/圖片地址/留空)<br>comments    【可選】顯示文章評論模塊(默認 true)<br>toc    【可選】顯示文章TOC(默認為設置中toc的enable配置)<br>toc_number    【可選】顯示toc_number(默認為設置中toc的number配置)<br>copyright    【可選】顯示文章版權模塊(默認為設置中post_copyright的enable配置)<br>copyright_author    【可選】文章版權模塊的文章作者<br>copyright_author_href    【可選】文章版權模塊的文章作者鏈接<br>copyright_url    【可選】文章版權模塊的文章連結鏈接<br>copyright_info    【可選】文章版權模塊的版權聲明文字<br>mathjax    【可選】顯示 mathjax (當設置 mathjax 的 per_page: false時，才需要配置，默認 false)<br>katex    【可選】顯示 katex (當設置 katex 的 per_page: false 時，才需要配置，默認 false)<br>aplayer    【可選】在需要的頁面加載 aplayer 的 js 和 css<br>highlight_shrink    【可選】配置代碼框是否展開(true/false)(默認為設置中highlight_shrink的配置)<br>aside    【可選】顯示側邊欄 (默認 true)<br>标签外挂<br>标签外挂是 Hexo 独有的功能，并不是标准的 Markdown 格式。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原生 Butterfly 主题不支持部分标签外挂，若想使用，参考 Tag Plugins Plus&lt;/p&gt;
+&lt;p&gt;Front-matter&lt;br&gt;Front-matter 是文件最上方以 — 分隔的区域&lt;/p&gt;
+&lt;p&gt;写法    解释&lt;br&gt;title    【必需】页面标</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>自用 Hexo-Butterfly 主题参考手册</title>
+    <link href="https://ioemoe.github.io/2021/08/17/%E8%87%AA%E7%94%A8%20Hexo-Butterfly%20%E4%B8%BB%E9%A2%98%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C/"/>
+    <id>https://ioemoe.github.io/2021/08/17/%E8%87%AA%E7%94%A8%20Hexo-Butterfly%20%E4%B8%BB%E9%A2%98%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C/</id>
+    <published>2021-08-17T02:53:24.000Z</published>
+    <updated>2021-08-17T12:15:12.274Z</updated>
+    
+    <content type="html"><![CDATA[<p>原生 Butterfly 主题不支持部分标签外挂，若想使用，参考 <a href="https://akilar.top/posts/615e2dec/">Tag Plugins Plus</a></p><h2 id="Front-matter"><a href="#Front-matter" class="headerlink" title="Front-matter"></a>Front-matter</h2><p>Front-matter 是文件最上方以 <code>---</code> 分隔的区域</p><table><thead><tr><th align="center">写法</th><th align="center">解释</th></tr></thead><tbody><tr><td align="center">title</td><td align="center">【必需】页面标题</td></tr><tr><td align="center">date</td><td align="center">【必需】页面创建日期</td></tr><tr><td align="center">type</td><td align="center">【必需】标籤、分类和友情链接三个页面需要配置</td></tr><tr><td align="center">updated</td><td align="center">【可选】页面更新日期</td></tr><tr><td align="center">description</td><td align="center">【可选】页面描述</td></tr><tr><td align="center">keywords</td><td align="center">【可选】页面关键字</td></tr><tr><td align="center">comments</td><td align="center">【可选】显示页面评论模块 (默认 true)</td></tr><tr><td align="center">top_img</td><td align="center">【可选】页面顶部图片</td></tr><tr><td align="center">mathjax</td><td align="center">【可选】显示 mathjax (当设置 mathjax 的 per_page: false 时，才需要配置，默认 false)</td></tr><tr><td align="center">katex</td><td align="center">【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false)</td></tr><tr><td align="center">aside</td><td align="center">【可选】显示侧边栏 (默认 true)</td></tr><tr><td align="center">aplayer</td><td align="center">【可选】在需要的页面加载 aplayer 的 js 和 css, 请参考文章下面的<code>音乐</code> 配置</td></tr><tr><td align="center">highlight_shrink</td><td align="center">【可选】配置代码框是否展开 (true/false)(默认为设置中 highlight_shrink 的配置)</td></tr></tbody></table><h2 id="Post-Front-matter"><a href="#Post-Front-matter" class="headerlink" title="Post Front-matter"></a>Post Front-matter</h2><table><thead><tr><th align="center">寫法</th><th align="center">解釋</th></tr></thead><tbody><tr><td align="center">title</td><td align="center">【必需】文章標題</td></tr><tr><td align="center">date</td><td align="center">【必需】文章創建日期</td></tr><tr><td align="center">updated</td><td align="center">【可選】文章更新日期</td></tr><tr><td align="center">tags</td><td align="center">【可選】文章標籤</td></tr><tr><td align="center">categories</td><td align="center">【可選】文章分類</td></tr><tr><td align="center">keywords</td><td align="center">【可選】文章關鍵字</td></tr><tr><td align="center">description</td><td align="center">【可選】文章描述</td></tr><tr><td align="center">top_img</td><td align="center">【可選】文章頂部圖片</td></tr><tr><td align="center">cover</td><td align="center">【可選】文章縮略圖(如果沒有設置top_img,文章頁頂部將顯示縮略圖，可設為false/圖片地址/留空)</td></tr><tr><td align="center">comments</td><td align="center">【可選】顯示文章評論模塊(默認 true)</td></tr><tr><td align="center">toc</td><td align="center">【可選】顯示文章TOC(默認為設置中toc的enable配置)</td></tr><tr><td align="center">toc_number</td><td align="center">【可選】顯示toc_number(默認為設置中toc的number配置)</td></tr><tr><td align="center">copyright</td><td align="center">【可選】顯示文章版權模塊(默認為設置中post_copyright的enable配置)</td></tr><tr><td align="center">copyright_author</td><td align="center">【可選】文章版權模塊的<code>文章作者</code></td></tr><tr><td align="center">copyright_author_href</td><td align="center">【可選】文章版權模塊的<code>文章作者</code>鏈接</td></tr><tr><td align="center">copyright_url</td><td align="center">【可選】文章版權模塊的<code>文章連結</code>鏈接</td></tr><tr><td align="center">copyright_info</td><td align="center">【可選】文章版權模塊的<code>版權聲明</code>文字</td></tr><tr><td align="center">mathjax</td><td align="center">【可選】顯示 mathjax (當設置 mathjax 的 per_page: false時，才需要配置，默認 false)</td></tr><tr><td align="center">katex</td><td align="center">【可選】顯示 katex (當設置 katex 的 per_page: false 時，才需要配置，默認 false)</td></tr><tr><td align="center">aplayer</td><td align="center">【可選】在需要的頁面加載 aplayer 的 js 和 css</td></tr><tr><td align="center">highlight_shrink</td><td align="center">【可選】配置代碼框是否展開(true/false)(默認為設置中highlight_shrink的配置)</td></tr><tr><td align="center">aside</td><td align="center">【可選】顯示側邊欄 (默認 true)</td></tr></tbody></table><h2 id="MarkDown在线编辑网站"><a href="#MarkDown在线编辑网站" class="headerlink" title="MarkDown在线编辑网站"></a>MarkDown在线编辑网站</h2><p>参考 <a href="https://markdown.lovejade.cn/">Arya-在线MarkDown编辑器</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原生 Butterfly 主题不支持部分标签外挂，若想使用，参考 &lt;a href=&quot;https://akilar.top/posts/615e2dec/&quot;&gt;Tag Plugins Plus&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Front-matter&quot;&gt;&lt;a href=&quot;#Fr</summary>
+      
+    
+    
+    
+    
+    <category term="自用的一些写法" scheme="https://ioemoe.github.io/tags/%E8%87%AA%E7%94%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E5%86%99%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://ioemoe.github.io/2021/08/17/hello-world/"/>
+    <id>https://ioemoe.github.io/2021/08/17/hello-world/</id>
+    <published>2021-08-17T02:34:09.623Z</published>
+    <updated>2021-08-17T02:34:09.623Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
